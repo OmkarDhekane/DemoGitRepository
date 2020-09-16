@@ -5,7 +5,11 @@
 <link rel="stylesheet" href="CssFile.css">
 
 <style>
+/*
+*{
+	box-sizing: border-box;
 
+}*/
 	.om{
 
 		padding: 10px;
@@ -17,16 +21,82 @@
 		
 	}
 
+	#p11,#p22,#p33,#p44{
+		width: 50px;
+		height: 50px;
+		background-color: rgb(85,85,85);
+		border: 2px solid black;	
+		margin: 29px;	
+	}
+
+	#p1{
+		width: 50px;
+		height: 50px;
+		background-color: rgb(255,0,0);
+		border: 2px solid black;		
+		float: right;
+		
+
+	}
+	#p2{
+
+		width: 50px;
+		height: 50px;
+		background-color: #008000;
+		border: 2px solid black;	
+		clear: right;
+		float: right;
+				
+
+	}
+	#p3{
+		width: 50px;
+		height: 50px;
+		background-color: #ffc266;
+		border: 2px solid black;	
+		clear: right;
+		float: right;
+		
+
+
+
+	}
+	#p4{
+
+		width: 50px;
+		height: 50px;
+		background-color: #4dff88;
+		border: 2px solid black;	
+		clear: right;
+		float: right;
+		
+	}
+	#p1:hover,#p1:active{
+		width: 400px;
+	}
+	#p2:hover,#p2:active{
+		width: 400px;
+	}
+	#p3:hover,#p3:active{
+		width: 400px;
+	}
+	#p4:hover,#p4:active{
+		width: 400px;
+	}
+
+
 	.om:hover,.om:active{
 		background-color: hotpink;
 		border-color: white;
 		font-weight: bold;
-		
+
 	}
 	.high{
 
 		color: brown;
-		background-color: yellow;
+		background-color: lightyellow;
+		border: double ;
+		border-color: red;
 		opacity: .89;
 	}
 	p.high{
@@ -39,7 +109,7 @@
 		border: 10px solid grey;
 		margin:10px solid hotpink;
 		width: 300px;
-		box-sizing: border-box;  
+		/*box-sizing: border-box;  */
 		color: black;
 		background-color:white;
 		ba
@@ -47,6 +117,7 @@
 	.section:hover,.section:active{
 		background-color: black;
 		color: white;
+		
 	}
 
 
@@ -57,7 +128,7 @@
 
 
 </head>
-<body>
+<body bgcolor="red+yellow">
 <h1 class="high">"HEY ADITI! WHAT'S UP! Thanks for webpage..."</h1>
 <div>Aditi Dhekane</div>
 <span>rooll no: 21224<div>maz nav omkar nhiye aahe</div></span>
@@ -100,6 +171,16 @@
 <div class="om">omkar</div>
 <div class="om">aditi</div>
 
+<br>
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p11"></p>
+<p id="p22"></p>
+<p id="p33"></p>
+<p id="p44"></p>
 
+<a href="ThirdTrialHtmla.html" title="responsive"> Click here to jump to responsive layout</a>
 </body>
 </html>
