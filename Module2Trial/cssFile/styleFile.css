@@ -1,4 +1,4 @@
-
+/*
 body
 {
 	padding:10px;
@@ -25,17 +25,17 @@ h1{
 }
 
 /****************************** Basic styling ***********************************/
+/*
 .s1
 {
 	color: white;
 	padding: 1px;
 	border: 1px solid black;
 	margin: 1px;
-	width: 30%;
 	height: 250px;
 	background-color: grey;
 	margin-bottom: 10px;
-	float: left;
+
 	margin-right: 10px;
 	position: relative;
 
@@ -46,14 +46,14 @@ h1{
 .s2
 {
 	color: white;
-	padding: 4px;
+	padding: 1px;
 	border: 1px solid black;
 	margin: 1px;
-	width: 30%;
+
 	height: 250px;
 	background-color: grey;
 	margin-bottom: 10px;
-	float: left;
+
 	margin-right: 10px;
 	margin-left: 10px;
 	position: relative;
@@ -64,17 +64,18 @@ h1{
 .s3
 {
 	color: white;
-	padding: 8px;
+	padding: 1px;
 	border: 1px solid black;
 	margin: 1px;
-	width: 30%;
+
 	height: 250px;
-	float: left;
+
 	margin-left:10px;
 	background-color: grey;
 
 	position: relative;
 }
+*/
 /*
 #p1{
 	background-color: black;
@@ -94,7 +95,7 @@ h1{
 
 
 /****************************** Medium size device ***********************************/
-
+/*
 @media (min-width: 992px){
 
 	.s1{
@@ -108,8 +109,154 @@ h1{
 		width: 30%;
 		}
 
+@media (min-width: 768px and max-width:991px)
+{
+	.s1{
+		width: 50%;
+	}
+	.s2{
+		width: 50%;
+	}
+	.s3{
+		width: 100%;
+	}
+}
 
 
+*/
 
 /****************************** Large size device ***********************************/
+*{
+	box-sizing: border-box;
+}
 
+
+.row{
+	width: 100%;
+}
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+
+}
+.s1
+{
+	color: white;
+	background: grey;
+	border: 3px solid black;
+	height: 200px;
+	align-items: center;
+	width: 30%;
+	position: relative;
+	left: 70px;
+	top:200px;
+	float: left;
+	margin-right: 10px;
+	
+
+
+
+	
+
+}
+
+.s2{
+	color: white;
+	background: grey;
+	border: 3px solid black;
+	align-items: center;
+	height: 200px;
+	width: 30%;
+	position: relative;
+	left: 70px;
+	top:200px;
+	float: left;
+	margin-right: 10px;
+
+	
+
+}
+
+
+.s3{
+	color: white;
+	background: grey;
+	border: 3px solid black;
+	align-items: center;
+	height: 200px;
+	width: 30%;
+	position: relative;
+	left: 70px;
+	top:200px;
+	float: left;
+
+
+	
+
+}
+
+#p1,#p2,#p3
+
+{
+
+	background:grey;
+	color: black;
+	font-weight: bold;
+	font-family: comic-sans;
+
+	padding: 5px;
+	margin: 0px;
+	border:3px solid black;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	position: relative;
+	left: 253px;
+	right: 100px;
+	bottom: 2px;
+
+
+
+
+
+/*
+	left:1317px;
+	bottom: 2px;*/
+
+}
+
+/*********** medium ************/
+
+@media (min-width: 992px)
+{
+	.s1,.s2,.s3{
+		float: left;
+	}
+
+	.s1{
+		width: 30%;
+	}
+	.s2{
+		width: 30%;
+	}
+	.s3{
+		width: 30%;
+	}
+}
+@media (min-width: 768px and max-width: 991px)
+{
+	.s1,.s2,.s3{
+		float: left;
+	}
+	.s1{
+		width:30%;
+	}
+	.s2{
+		width: 30%;
+	}
+	.s3{
+		width: 100%;
+	}
+
+}
