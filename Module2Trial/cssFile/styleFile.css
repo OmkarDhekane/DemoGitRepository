@@ -1,4 +1,115 @@
-body{
 
-	background-color: blue;
+body
+{
+	padding:10px;
+	margin:10px;
+	border:10px;
+	align-items: center;
+
+
 }
+*{
+	box-sizing: border-box;
+}
+
+div{
+
+	background-color: skyblue;
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	
+
+}
+
+/****************************** Basic styling ***********************************/
+.s1
+{
+	color: white;
+	padding: 1px;
+	border: 1px solid black;
+	margin: 1px;
+	width: 30%;
+	height: 250px;
+	background-color: grey;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+
+
+	
+
+}
+.s2
+{
+	color: white;
+	padding: 4px;
+	border: 1px solid black;
+	margin: 1px;
+	width: 30%;
+	height: 250px;
+	background-color: grey;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+
+
+
+}
+.s3
+{
+	color: white;
+	padding: 8px;
+	border: 1px solid black;
+	margin: 1px;
+	width: 30%;
+	height: 250px;
+	float: left;
+	margin-left:10px;
+	background-color: grey;
+
+	position: relative;
+}
+/*
+#p1{
+	background-color: black;
+	color: white;
+	width: 40%;
+	text-align: center;
+	border: 10px;
+	margin:1px;
+	position: relative;
+	left: 270px;
+	border:5px; 
+
+
+
+
+}*/
+
+
+/****************************** Medium size device ***********************************/
+
+@media (min-width: 992px){
+
+	.s1{
+		width: 30%;
+		}
+	.s2{
+
+		width: 30%;
+		}
+	.s3{
+		width: 30%;
+		}
+
+
+
+
+/****************************** Large size device ***********************************/
+
