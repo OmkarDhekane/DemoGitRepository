@@ -124,12 +124,15 @@ h1{
 
 
 */
-
+/**SEE THIS SHANUK SEE THIS SHANUK SEE THIS SHANUK SEE THIS SHANUK SEE THIS SHANUK SEE THIS SHANUK*/
 /****************************** Large size device ***********************************/
+/*
+
+
+
 *{
 	box-sizing: border-box;
 }
-
 
 .row{
 	width: 100%;
@@ -142,8 +145,10 @@ h1
 }
 .s1
 {
-	color: white;
+	
 	background: grey;
+	color: white;
+	font-weight: bold;
 	border: 3px solid black;
 	height: 200px;
 	align-items: center;
@@ -162,8 +167,10 @@ h1
 }
 
 .s2{
-	color: white;
+	
 	background: grey;
+	color: white;
+	font-weight: bold;
 	border: 3px solid black;
 	align-items: center;
 	height: 200px;
@@ -180,8 +187,10 @@ h1
 
 
 .s3{
-	color: white;
+	
 	background: grey;
+	color: white;
+	font-weight: bold;
 	border: 3px solid black;
 	align-items: center;
 	height: 200px;
@@ -200,8 +209,8 @@ h1
 
 {
 
-	background:grey;
-	color: black;
+	background:red;
+	color: white;
 	font-weight: bold;
 	font-family: comic-sans;
 
@@ -218,15 +227,19 @@ h1
 
 
 
-
+*/
 
 /*
 	left:1317px;
 	bottom: 2px;*/
-
+/*
 }
+#p2{
+		background:green;
+}*/
 
-/*********** medium ************/
+
+/*********** medium ************//*
 
 @media (min-width: 992px)
 {
@@ -259,4 +272,272 @@ h1
 		width: 100%;
 	}
 
+}/*
+
+*************************** trails **********************************************/
+
+.contain{
+
+	width: 100%;
+	margin: center;
+
 }
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin:30px;
+}
+
+h2{
+	color: white;
+	font-family: sans-serif;
+	margin: 1px 1px;
+	padding:1px;
+	text-align: center;
+}
+
+#wp{
+	background-color: red;
+}
+#mis{
+	background-color: green;
+}
+#bak{
+	background-color: blue;
+}
+
+.heading{
+	float: right;
+	width: 23%;
+	border:2px solid black;
+	font-size: 10px;
+	text-align: center;
+	border-top: 0px;
+	
+
+}
+
+.content{
+	width: 100%;
+    margin: 12px 3px;
+    border: 2px solid black;
+    padding-left: 20px;
+   	background-color: gray;
+
+
+
+}
+
+body{
+	position: relative;
+	top:150px;
+	left: 30px;
+}
+
+
+/************ large size compo ****************/
+
+@media (min-width: 992px)
+{
+
+	#wada{
+		background-color: grey;
+		float: left;
+		width: 29.5%;
+
+	}
+	#misal{
+		background-color: grey;
+		float: left;
+		width: 29.5%;
+
+	}	  
+	#bakar{
+		background-color: grey;
+		float: left;
+		width: 29.5%; 
+
+	}	  
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    #wada {
+        background-color: gray;
+        float: left;
+        width: 42%;
+    }
+
+    #misal {
+        background-color: gray;
+        float: left;
+        width: 42%;
+
+    }
+
+    #bakar {
+        background-color: gray;
+        float: left;
+        width: 88%;
+    }
+
+
+}
+
+/****************** Small devices ***************/
+ @media (max-width: 767px)
+{
+        #wada {
+            
+            float: left;
+            width: 85%;
+        }
+
+        #misal {
+            
+            float: left;
+            width: 85%;
+
+        }
+
+        #bakar {
+            
+            float: left;
+            width: 85%;
+        }
+    
+}
+
+/********************************************** WORKING **************************************/
+/*
+.contain{
+
+	width: 100%;
+	margin: center;
+}
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+	margin:30px;
+}
+
+h2{
+	color: white;
+	font-family: sans-serif;
+	margin: 1px 1px;
+	padding:1px;
+	text-align: center;
+}
+
+#wp{
+	background-color: red;
+}
+#mis{
+	background-color: green;
+}
+#bak{
+	background-color: blue;
+}
+
+.heading{
+	float: right;
+	width: 20%;
+	border:2px solid black;
+	font-size: 10px;
+	text-align: center;
+	border-top: 0px;
+	border-right : 0px;
+
+}
+
+.content{
+	width: 100%;
+    margin: 12px 3px;
+    border: 2px solid black;
+    padding-left: 7px;
+   	background-color: gray;
+}
+/************ large size compo ****************//*
+
+@media (min-width: 992px)
+{
+
+	#wada{
+		background-color: grey;
+		float: left;
+		width: 32%;
+
+	}
+	#misal{
+		background-color: grey;
+		float: left;
+		width: 32%;
+
+	}	  
+	#bakar{
+		background-color: grey;
+		float: left;
+		width: 30%; 
+
+	}	  
+
+}*/
+
+/********** Medium devices only **********//*
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    #wada {
+        background-color: gray;
+        float: left;
+        width: 47%;
+    }
+
+    #misal {
+        background-color: gray;
+        float: left;
+        width: 47%;
+
+    }
+
+    #bakar {
+        background-color: gray;
+        float: left;
+        width: 96.5%;
+    }
+
+}*/
+
+/****************** Small devices ***************//*
+ @media (max-width: 767px)
+{
+        #wada {
+            
+            float: left;
+            width: 96%;
+        }
+
+        #misal {
+            
+            float: left;
+            width: 96%;
+
+        }
+
+        #bakar {
+            
+            float: left;
+            width: 96%;
+        }
+    
+}
+
+*/
