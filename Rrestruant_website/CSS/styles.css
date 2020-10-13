@@ -1,6 +1,7 @@
-body{
-	color: white;
-	background-color: black;
-	font-family: comic sans;
-	font-weight: bold;
+.row{
+	margin:10px;
+}
+.row > div{
+	border:2px solid grey;
+	background-color: red;
 }
