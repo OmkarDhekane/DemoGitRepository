@@ -11,14 +11,14 @@ body
 }
 
 #header-nav{
-	background-color: yellow;
+	background-color: lightgreen;
 	border-radius: 0;
 	border: 0;
 	margin:10px;
 
 }
 #img-logo{
-	background: url('batman.jpg') no-repeat;
+	background: url('..\images\netflix.jpg') no-repeat;/*Not working*/
 	width: 100px;
 	height: 100px;
 	margin: 10px 15px 10px 0px;
