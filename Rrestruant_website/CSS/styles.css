@@ -18,8 +18,11 @@ body
 
 }
 #img-logo{
-	background: url('..\images\netflix.jpg') no-repeat;/*Not working*/
+	/*background: url('..images\netflix.jpg') no-repeat;/*Not working*/
 	width: 100px;
 	height: 100px;
 	margin: 10px 15px 10px 0px;
 }
+
+
+/*<div id="img-logo" alt="logo image"></div>*/
