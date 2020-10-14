@@ -18,8 +18,8 @@ body
 
 }
 #img-logo{
-	background: url('../batman.jpg') no-repeat;
-	width: 200px;
-	height: 150px;
+	background: url('batman.jpg') no-repeat;
+	width: 100px;
+	height: 100px;
 	margin: 10px 15px 10px 0px;
 }
